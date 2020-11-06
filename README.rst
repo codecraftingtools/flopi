@@ -4,7 +4,7 @@
 Flopi
 =====
 
-This project provides a fine-grained logging and output Python
+This project aims to provide a fine-grained logging and output Python
 interface for displaying and recording status, event, debugging,
 warning, and error information. Flopi can operate as a pure Python
 module, or in conjunction with Flout when extending or embedding the
