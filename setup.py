@@ -6,7 +6,7 @@ with open("README.rst", "r") as fh:
 setuptools.setup(
     name="flopi",
     version="0.0.1",
-    author="Jeffrey A. Webb",
+    author="Jeff Webb",
     author_email="jeff.webb@codecraftsmen.org",
     description="Fine-grained logging and output Python interface",
     long_description=long_description,
