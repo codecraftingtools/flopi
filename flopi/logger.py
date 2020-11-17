@@ -22,16 +22,33 @@ _logging.addLevelName(EMERGENCY, "EMERGENCY")
 
 _loggers = {}
 
-class _Python_Logger:
-
+class Python_Logger:
+    """
+    Python logger class.
+    """
     def __init__(self, name):
         self._logger = _logging.getLogger(name)
 
-    def set_level(self, level):
+    def set_level(self, level: int):
+        """
+        Set the logging level.
+
+        Args:
+          level: New logging level
+        """
         return self._logger.setLevel(level)
     setLevel = set_level
     
-    def is_enabled_for(self, level):
+    def is_enabled_for(self, level: int) -> bool:
+        """
+        Determine if the logger is enabled for the specified level.
+
+        Args:
+          level: Logging level to query
+
+        Returns:
+          Whether the logger is enabled for the level or not
+        """
         return self._logger.isEnabledFor(level)
     isEnabledFor = is_enabled_for
     
@@ -76,7 +93,7 @@ class _Python_Logger:
 def get_logger(name=None):
     logger = _loggers.get(name)
     if logger is None:
-        logger = _Python_Logger(name)
+        logger = Python_Logger(name)
         _loggers[name] = logger
     return logger
 getLogger = get_logger
