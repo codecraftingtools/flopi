@@ -14,13 +14,13 @@ embedding`_ the Python interpreter.
 `documentation`_ is hosted on `Read the Docs`_ and the `source code`_
 can be found on `GitHub`_.
 
-.. _Flout: https://www.codecraftsmen.org/software.html#flout
+.. _Flout: https://tools.codecraftsmen.org/software.html#flout
 .. _extending or embedding: https://docs.python.org/3/extending
-.. _Flopi: https://www.codecraftsmen.org/software.html#flopi
+.. _Flopi: https://tools.codecraftsmen.org/software.html#flopi
 .. _Code Craftsmen: https://www.codecraftsmen.org
 .. _documentation: https://flopi.readthedocs.io
-.. _Read the Docs: https://www.codecraftsmen.org/foundation.html#read-the-docs
+.. _Read the Docs: https://tools.codecraftsmen.org/foundation.html#read-the-docs
 .. _source code: https://github.com/codecraftingtools/flopi
-.. _GitHub: https://www.codecraftsmen.org/foundation.html#github
+.. _GitHub: https://tools.codecraftsmen.org/foundation.html#github
 
 ..  sphinx-include-summary-end
